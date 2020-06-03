@@ -19,7 +19,7 @@ body {
 
 
 .navbar-brand {
-  background-color: rgb(145, 118, 44);
+  background-color:  rgb(44, 125, 145);
   color: cornsilk;
   padding: 10px;
   -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
@@ -31,6 +31,16 @@ body {
 .card-img-top {
     max-width: 300px;
     
+}
+
+.card-title {
+  background-color: rgb(44, 125, 145);
+  color: cornsilk;
+  padding: 10px;
+  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  
 }
 
 
