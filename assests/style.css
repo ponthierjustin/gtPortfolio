@@ -1,4 +1,20 @@
-.name {
+body {
+        background-image: url("gtpfbg.png");
+        background-color: #cccccc;
+      
+}
+
+
+#aboutCard {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.navbar-brand {
   background-color: rgb(183, 137, 226);
   color: cornsilk;
   padding: 10px;
@@ -8,11 +24,6 @@
   margin-left: 100px;
 }
 
-.navbar-toggler {
-    margin-right: 100px;
-}
 
-.navbar-brand {
-    text-align: center;
-    color: rgba(179, 179, 179, 0);
-}
+
+
