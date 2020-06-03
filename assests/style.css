@@ -1,12 +1,16 @@
 body {
-        background-image: url("gtpfbg.png");
-        background-color: #cccccc;
+        background-image: url(./images/gtpfbg.png);
       
 }
 
 
 #aboutCard {
     margin-top: 100px;
+    -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    margin-left: 100px;
+    opacity: .9;
 }
 
 
@@ -15,13 +19,18 @@ body {
 
 
 .navbar-brand {
-  background-color: rgb(183, 137, 226);
+  background-color: rgb(145, 118, 44);
   color: cornsilk;
   padding: 10px;
   -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   margin-left: 100px;
+}
+
+.card-img-top {
+    max-width: 300px;
+    
 }
 
 
