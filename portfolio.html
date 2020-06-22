@@ -10,6 +10,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="./assests/style.css" />
     <!-- Favicon -->
@@ -19,12 +20,17 @@
       type="image/x-icon"
     />
 
-    <title>Portfolio</title>
+    <title>Justin Ponthier</title>
   </head>
   <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="goop.mp4" type="video/mp4" />
+    </video>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Justin Ponthier</a>
+      <a class="navbar-brand rounded-lg" href="#" style="color: aliceblue;"
+        >Justin Ponthier</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -38,15 +44,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Portfolio <span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -60,29 +64,21 @@
         <div class="row">
           <div class="card col-md-10" id="aboutCard">
             <div class="card-body">
-              <h5 class="card-title">Portfolio</h5>
+              <h5 class="card-title">About Me</h5>
               <hr />
-              <img
-                src="data:image/jpeg;base64,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"
-                alt="PlaceHolder IMG"
-              />
-              <img
-                src="data:image/jpeg;base64,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"
-                alt="PlaceHolder IMG"
-              />
-              <img
-                src="data:image/jpeg;base64,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"
-                alt="PlaceHolder IMG"
-              />
-              <hr />
+              <p class="card-text">
+              </p>
             </div>
           </div>
         </div>
       </div>
     </main>
+
     <!-- Footer -->
     <nav class="navbar fixed-bottom navbar-light bg-light">
-      <a class="navbar-brand" href="#">@ Justin Ponthier</a>
+      <a class="navbar-brand text-center rounded-pill" href="#" style="color: aliceblue;"
+        >@ 2020</a
+      >
     </nav>
 
     <!-- JavaScript Bootstrap CDN -->
