@@ -2,10 +2,6 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-
-body {
-  background-image: url(./images/gtpfbg.png);
-}
 #myVideo {
   position: fixed;
   right: 0;
@@ -50,4 +46,3 @@ body {
 main {
   margin-bottom: 75px;
 }
-
