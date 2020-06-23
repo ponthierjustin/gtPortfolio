@@ -1,6 +1,9 @@
 * {
   font-family: 'Quicksand', sans-serif;
 }
+body {
+  background-image: url(assests\Confetti-Doodles.svg);
+}
 
 #myVideo {
   position: fixed;
@@ -8,7 +11,22 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  padding: 0px;
+  width: 100%;
+  background-size: cover;
+  padding: 0; 
+
 }
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: auto;
+} 
 
 #aboutCard {
   margin-top: 100px;
@@ -26,10 +44,12 @@
   -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   margin-left: 100px;
+  opacity: 0.96;
 } 
 
 .card-img-top {
   max-width: 300px;
+  opacity: 0.96;
 }
 
 .card-title {
@@ -39,6 +59,7 @@
   -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  opacity: 0.96;
 }
 .text-center{
   text-align: center;
@@ -46,3 +67,4 @@
 main {
   margin-bottom: 75px;
 }
+
